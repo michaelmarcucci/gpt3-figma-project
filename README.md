@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# GPT3 Design Showcase Site Built with Figma & React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built as an exploration of constructing a figma design in React. It was built following a tutorial from Javascript Mastery and making personal adjustmentss based on preferences and readability.
 
-## Available Scripts
+## Tech Used & Learning Takeaways
 
-In the project directory, you can run:
+Tech: React(17), Figma, CSS, HTML
 
-### `yarn start`
+Takeaways: Passing props down the React tree, Keeping react component style files in the same folder as opposed to a separate Styles folder, modified BEM naming convention for classNames (Block Element Modifier), use of css variables in src/index.css using root:, css tools used: animista.net & angrytools.com/gradient.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Why I Built This Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project is intended as a learning experience for assembling and properly styling information from a Figma file/design document to build a functional web page. This simulates the process of React frontend devs getting a design that they must bring to life and keep clearly readable and maintainable for all team members by writing clean code with consistent styling and formatting.
 
-### `yarn test`
+#### How the File Structure is Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was created using the standard npx create-react-app command. There are two kinds of react component folders ( components and containers ) with each containing a folder for the jsx component listed and its corresponding css file. Container files are the parent element JSX files that house the component folder JSX files. Global style variables were stored in index.css in the src folder. The App.css holds my default global styles and additional class modifiers to apply the gradients and animations to some components.
 
-### `yarn build`
+##### Improvements to be Made With More Time/Experience
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The text of some elements is a bit small on the initial desktop view, but it fits nicely using the media query adjustments. With more experience I would figure out how to better utilize the responsive units (rem & em) to better fill the avilable page space on desktops.
