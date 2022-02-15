@@ -18,4 +18,4 @@ This project was created using the standard npx create-react-app command. There 
 
 ##### Improvements to be Made With More Time/Experience
 
-The text of some elements is a bit small on the initial desktop view, but it fits nicely using the media query adjustments. With more experience I would figure out how to better utilize the responsive units (rem & em) to better fill the avilable page space on desktops.
+The text of some elements is a bit small on the initial desktop view, but it fits nicely using the media query adjustments. With more experience I would figure out how to better utilize the responsive units (rem & em) to better fill the available page space on desktops.
